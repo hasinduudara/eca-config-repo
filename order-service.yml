@@ -4,8 +4,12 @@ server:
 spring:
   application:
     name: order-service
-  mongodb:
-    uri: mongodb://localhost:27017/eca_order_db
+  
+  cloud:
+    gcp:
+      project-id: hasinduudaraportfolio
+      credentials:
+        location: classpath:firestore-key.json
 
 eureka:
   client:
