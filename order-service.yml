@@ -10,6 +10,8 @@ spring:
       project-id: hasinduudaraportfolio
       credentials:
         location: classpath:firestore-key.json
+      firestore:
+        database-id: eca-order-db
 
 eureka:
   client:
